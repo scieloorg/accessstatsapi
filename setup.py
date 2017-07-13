@@ -3,14 +3,14 @@ from setuptools import setup, find_packages
 
 install_requires = [
     'thriftpy==0.3.1',
-    'requests==2.11.1'
+    'requests>=2.11.1'
 ]
 
 tests_require = []
 
 setup(
-    name="acessstatsapi",
-    version="1.0.0",
+    name="accessstatsapi",
+    version="1.1.0",
     description="Library that implements the endpoints of the Access Stats API",
     author="SciELO",
     author_email="scielo-dev@googlegroups.com",

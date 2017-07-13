@@ -12,7 +12,6 @@ try:
 except:
     from urlparse import urljoin
 
-import requests
 from thriftpy.rpc import make_client
 
 logger = logging.getLogger(__name__)
@@ -34,7 +33,7 @@ class ThriftClient(object):
         """
         Cliente thrift para o Articlemeta.
         """
-        self.domain = domain or 'accessstats.scielo.org:11660'
+        self.domain = domain or 'ratchet.scielo.org:11660'
         self._set_address()
 
     def _set_address(self):
@@ -77,6 +76,7 @@ class ThriftClient(object):
         """
 
         query_parameters = []
+
         for key, value in params:
             query_parameters.append(
                 self.ACCESSSTATS_THRIFT.kwargs(str(key), str(value))
