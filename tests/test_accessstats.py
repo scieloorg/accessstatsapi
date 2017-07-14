@@ -2,7 +2,7 @@
 import unittest
 
 
-class CitedbyTest(unittest.TestCase):
+class AccessStatsTest(unittest.TestCase):
 
     def test_something(self):
 

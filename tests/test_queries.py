@@ -4,7 +4,7 @@ import unittest
 from accessstats import queries
 
 
-class CitedbyTest(unittest.TestCase):
+class AccessStatsQueriesTest(unittest.TestCase):
 
     def test_compute_documents_downloads_per_year(self):
 

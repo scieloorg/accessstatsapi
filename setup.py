@@ -10,7 +10,7 @@ tests_require = []
 
 setup(
     name="accessstatsapi",
-    version="1.1.0",
+    version="1.2.0",
     description="Library that implements the endpoints of the Access Stats API",
     author="SciELO",
     author_email="scielo-dev@googlegroups.com",

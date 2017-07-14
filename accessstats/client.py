@@ -17,11 +17,11 @@ from thriftpy.rpc import make_client
 logger = logging.getLogger(__name__)
 
 
-class CitedByExceptions(Exception):
+class AccessStatsExceptions(Exception):
     pass
 
 
-class ServerError(CitedByExceptions):
+class ServerError(AccessStatsExceptions):
     pass
 
 

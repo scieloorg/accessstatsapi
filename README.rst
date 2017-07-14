@@ -1,8 +1,8 @@
-CitedBy API Client
+AccessStats API Client
 ------------------
 
 Biblioteca para fornecer metodos para recuperar dados de acessos em endpoints 
-da API RPC do CitedBy.
+da API RPC do Access Stats.
 
 Build Status
 ------------
