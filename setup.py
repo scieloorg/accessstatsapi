@@ -9,7 +9,7 @@ install_requires = [
 
 setup(
     name="accessstatsapi",
-    version="1.2.0",
+    version="1.2.1",
     description="SciELO AccessStats service SDK for Python",
     author="SciELO",
     author_email="scielo-dev@googlegroups.com",
